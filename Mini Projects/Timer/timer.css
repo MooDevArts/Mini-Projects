@@ -1,0 +1,13 @@
+body {
+  background: blue;
+  color: yellow;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: clamp(3rem, 7.883vw + -0.768rem, 10rem);
+  text-align: center;
+}
