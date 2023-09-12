@@ -66,11 +66,11 @@ function renderList() {
 function addTaskToDOM(task) {
   list.innerHTML =
     list.innerHTML +
-    `<li id = "${task.id}"><label class = "item" id = "${
-      task.id
-    }"><input class = "item" id = "${task.id}" type = "checkbox" ${
-      task.done ? "checked" : ""
-    }>${task.text}</label><span class = "delete" style = "color:red" id = "${
+    `<li class = "item" id = "${task.id}"><label class = "item" id = "${task.id}">
+      <input class = "item" id = "${task.id}" type = "checkbox" ${
+      task.done ? "checked" : ""}>
+      ${task.text}
+      </label><span class = "delete" id = "${
       task.id
     }">Delete</span></li>`;
 }

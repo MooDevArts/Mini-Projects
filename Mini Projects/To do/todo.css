@@ -6,4 +6,18 @@ li{
 
 li:hover{
     background: lightgray;
+    cursor: pointer;
+}
+
+.delete{
+    color: red;
+    text-decoration: none!important;
+}
+
+.delete:hover{
+    color:blueviolet;
+}
+
+ul{
+    padding: 0 20px 0 20px;
 }
