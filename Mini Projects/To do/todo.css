@@ -1,0 +1,9 @@
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li:hover{
+    background: lightgray;
+}
